@@ -1,0 +1,130 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Projects\Projects\Packages\iBrowser\PCKG1.1
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\system32\wmp.dll=
+C:\WINDOWS\system32\shfolder.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\Comdlg32.ocx=
+C:\WINDOWS\system32\COMCTL32.OCX=
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|Standard Setup Package 1|Files Added]
+D:\Projects\Projects\Projects\iBrowser\abalbul1.gif=
+D:\Projects\Projects\Projects\iBrowser\abalbul2.gif=
+D:\Projects\Projects\Projects\iBrowser\abalbul3.gif=
+D:\Projects\Projects\Projects\iBrowser\abalrule.gif=
+D:\Projects\Projects\Projects\iBrowser\balbkgnd.gif=
+D:\Projects\Projects\Projects\iBrowser\tab.htm=
+
+[Package|Standard Setup Package 1|Files Removed]
+c:\windows\system32\wmp.dll=
+c:\windows\system32\shfolder.dll=
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\Projects\Projects\Compiled Softwares\iBrowser\iBrowser.exe=Yes
+C:\WINDOWS\system32\MSVBVM60.DLL=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\shfolder.dll=No
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\COMCTL32.OCX=Yes
+C:\WINDOWS\system32\wmp.dll=No
+C:\WINDOWS\system32\Comdlg32.ocx=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Projects\Projects\Projects\iBrowser\abalbul1.gif=Yes
+D:\Projects\Projects\Projects\iBrowser\abalbul2.gif=Yes
+D:\Projects\Projects\Projects\iBrowser\abalbul3.gif=Yes
+D:\Projects\Projects\Projects\iBrowser\abalrule.gif=Yes
+D:\Projects\Projects\Projects\iBrowser\balbkgnd.gif=Yes
+D:\Projects\Projects\Projects\iBrowser\tab.htm=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\Projects\Projects\Compiled Softwares\iBrowser\iBrowser.exe=$(AppPath)
+C:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mscomctl.ocx=$(AppPath)
+C:\WINDOWS\system32\COMCTL32.OCX=$(AppPath)
+C:\WINDOWS\system32\Comdlg32.ocx=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Projects\Projects\Projects\iBrowser\abalbul1.gif=$(AppPath)
+D:\Projects\Projects\Projects\iBrowser\abalbul2.gif=$(AppPath)
+D:\Projects\Projects\Projects\iBrowser\abalbul3.gif=$(AppPath)
+D:\Projects\Projects\Projects\iBrowser\abalrule.gif=$(AppPath)
+D:\Projects\Projects\Projects\iBrowser\balbkgnd.gif=$(AppPath)
+D:\Projects\Projects\Projects\iBrowser\tab.htm=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\Projects\Projects\Compiled Softwares\iBrowser\iBrowser.exe=No
+C:\WINDOWS\system32\mscomctl.ocx=No
+C:\WINDOWS\system32\COMCTL32.OCX=No
+C:\WINDOWS\system32\Comdlg32.ocx=No
+D:\Projects\Projects\Projects\iBrowser\abalbul1.gif=No
+D:\Projects\Projects\Projects\iBrowser\abalbul2.gif=No
+D:\Projects\Projects\Projects\iBrowser\abalbul3.gif=No
+D:\Projects\Projects\Projects\iBrowser\abalrule.gif=No
+D:\Projects\Projects\Projects\iBrowser\balbkgnd.gif=No
+D:\Projects\Projects\Projects\iBrowser\tab.htm=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=iBrowser
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=iBrowser
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|iBrowser]
+Icon1=iBrowser.exe
+Title1=iBrowser
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\Projects\Projects\Packages\iBrowser\PCKG1.1
+ProjectFolder=D:\Projects\Projects\Projects\iBrowser
+ServerSideCab=
+File1=D:\Projects\Projects\Packages\iBrowser\PCKG1.1\setup.exe
+File2=D:\Projects\Projects\Packages\iBrowser\PCKG1.1\Setup.Lst
+File3=D:\Projects\Projects\Packages\iBrowser\PCKG1.1\iBrowser.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
